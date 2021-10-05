@@ -17,10 +17,11 @@ class Main extends Component {
     onDishSelect(dishId) {
         this.setState({ selectedDish: dishId });
     }
-
+    
+    
     render() {
         return (
-            <div className="container">
+            <div>
                 <Navbar dark color="primary">
                     <div className="container">
                         <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
